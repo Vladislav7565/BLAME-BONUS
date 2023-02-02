@@ -1,0 +1,182 @@
+a {
+    text-decoration: none;
+}
+.body {
+    position: absolute;
+    width: 1520px;
+    left: -1px;
+}
+
+
+.start_game {
+    position: absolute;
+    color:white;
+    left: 450px;
+    top: 35px;
+    font-size: 25px;
+    font-family: Anton;
+}
+.start_game:hover {
+    color: gray;
+}
+.privace_room {
+    position: absolute;
+    left: 650px;
+    top: 35px;
+    font-size: 25px;
+    font-family: Anton;
+    color: white;
+}
+.privace_room:hover {
+    color: rgb(78, 78, 78);
+    
+}
+.donate {
+    position: absolute;
+    left: 900px;
+    top: 35px;
+    font-size: 25px;
+    font-family: Anton;
+    color: white;
+}
+.donate:hover {
+    color: gray;
+}
+.forum {
+    position: absolute;
+    left: 1050px;
+    top: 35px;
+    font-size: 25px;
+    font-family: Anton;
+    color: white;
+}
+.forum:hover {
+    color: gray;
+}
+.nw2023 {
+    position: absolute;
+    left: 1200px;
+    top: -13px;
+}
+.Blame_bonus {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    color: white;
+    font-size: 40px;
+    font-family: Anton;
+  
+}
+.text_blame {
+    position: absolute;
+    top: 350px;
+    color: white;
+    left: 200px;
+    font-family: Bebas Neue;
+    width: 500px;
+}
+.rub {
+    position: absolute;
+    top: 180px;
+    width: 200px;
+    left: 1200px;
+    box-shadow: 0 27px 64px -16px rgba(0, 208, 255, 0.64);
+}
+.rub1 {
+    position: absolute;
+    width: 200px; 
+    left: 980px;
+    top: 180px;
+    box-shadow: 0 27px 64px -16px rgba(0, 208, 255, 0.64);
+}
+.rub2 {
+    position: absolute;
+    width: 200px;
+    left: 765px;
+    top: 180px;
+    box-shadow: 0 27px 64px -16px rgba(0, 208, 255, 0.64);
+}
+.rub_eks {
+    position: absolute;
+    color: white;
+    left: 850px;
+    top: 100px;
+    font-family:Bebas Neue;
+    box-shadow: 0 27px 64px -16px rgba(0, 208, 255, 0.64);
+}
+.future {
+    position: absolute;
+    width: 200px;
+    left: 550px;
+    top: 180px;
+    box-shadow: 0 27px 64px -16px rgba(0, 208, 255, 0.64);
+}
+.contacts_dannie {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    color: white;
+    font-family: Bebas Neue ;
+}
+.GT-R {
+    position: absolute;
+    width: 600px;
+    top: 620px;
+    left:600px;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    position: absolute;
+    background-color: #3498DB;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    left: 1420px;
+    top: 13px;
+    width: 60px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fdfdfd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(7, 64, 236);
+    z-index: 1;
+    left: 1350px;
+    top: 50px;
+    border-radius: 25px;
+    
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
